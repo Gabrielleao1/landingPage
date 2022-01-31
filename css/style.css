@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background: linear-gradient(68.15deg, #23233b 16.62%, #52658e 85.61%);
+}
+
+.nav-item {
+    margin: 0 25px 0 25px;
+    font-family: 'sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.about {
+    border-top: 0.4px solid #F8F9F9;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    gap: 400px;
+    background-color: #F8F9F9;
+}
+
+.about-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-title {
+    font-family: 'Righteous', cursive;
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.about-text {
+    width: 400px;
+    padding: 30px 0 15px 0;
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    color: #000;
+}
+
+.btn-about {
+    background-color: #FFF2E7;
+    width: 140px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
+
+.btn-about:hover {
+    background-color: #52658e;
+    color: #fff;
+}
+
+.about-img-text {
+    position: absolute;
+    top: 36%;
+    left: 76.5%;
+    font-family: 'Sarala', sans-serif;
+    color: cornflowerblue;
+}
+
+.title {
+    border-top: 0.4px solid #FFF2E7;
+    padding: 50px 0 0 0;
+    margin: 0 0 40px 0;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color:#000;
+}
+
+.products {
+    border-top: 0.4px solid #FFF2E7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 45px 0 45px 0;
+    margin-bottom: 45px;
+}
+
+.products-title {
+    font-family: 'Righteous', cursive;
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+.products-img {
+    width: 300px;
+    height: 200px;
+}
+
+.slide {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: all 0.4s;
+}
+
+.slides {
+    width: 1000px;
+    display: flex;
+}
+
+.image img{
+    width: 300px;
+    height: 200px;
+}
+
+#atual {
+    transition: all 2s;
+}
+
+.btn {
+    position: absolute;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s;
+    font-size: 1.7rem;
+    margin-top: 30px;
+}
+
+.btn:hover {
+    transform: scale(1.5);
+}
+
+#back {
+    top: 95%;
+    left: 30%;
+}
+
+#next {
+    top: 95%;
+    right: 30%;
+}
+
+.balls {
+    position: absolute;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.balls div{
+    transition: all 0.5s;
+    border: 3px solid #000;
+    padding: 6px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.balls div:hover {
+    background: rgb(255, 194, 194);
+}
+
+.imgAtual {
+    background: #fff;
+    transition: all 0.5s;
+}
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F8F9F9;
+    height: 100%;
+    padding-bottom: 30px;
+}
+
+.partners-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    width: 500px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+}
+
+.partners-img {
+    margin: 10px 0 10px 0;
+}
+
+.barra {
+    border-right: 1px solid black;
+    height: 100px;
+}
